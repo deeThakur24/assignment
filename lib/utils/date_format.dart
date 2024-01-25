@@ -1,0 +1,30 @@
+class AppDateFormat {
+  static String serverDateTimeFormat1 = "yyyy/MM/dd'T'HH:mm:ss.SSS'Z'";
+  static String serverDateTimeFormat2 = 'yyyy/MM/dd HH:mm:ss';
+  static String serverDateTimeFormat3 = "yyyy/MM/dd'T'HH:mm:ss'Z'";
+  static String serverDateTimeFormat4 = "yyyy/MM/dd'T'HH:mm:sss";
+  static String serverDateTimeFormat5 = 'yyyy-MM-dd';
+  static String notificationDateFormat1 = 'E MM/dd';
+  static String fullDateTimeFormat = 'MMM dd, HH:mm a';
+  static String fullDateFormat = 'MMMM dd, yyyy';
+  static String hoursFormat = 'HH:mm';
+  static String hoursAMPMFormat = 'hh:mm a';
+  static String dateHoursAMPMFormat = 'MM/dd/yyyy, hh:mm a';
+  static String hoursOnlyFormat = 'hh';
+  static String shortMonthFormat = 'MMM dd, yyyy';
+  static String shortMonthDateFormat = 'MMM d';
+  static String memberShipExpiryServerFormat = 'yyyy/MM/dd';
+  static String ddMMYYYYDateFormat = 'dd/MM/yyyy, HH:mm';
+  static String ddMMDateFormat = 'dd/MM';
+  static String mMddYYYYDateFormat = 'MM/dd/yyyy';
+  static String filterUIDateFormat = 'MMM dd,yyyy HH:mm';
+  static String germanUIDateFormat = 'dd.MM.yyyy, HH:mm:ss';
+  static String englishUIDateFormat = 'MM/dd/yyyy, HH:mm:ss';
+  static String italianUIDateFormat = 'dd.MM.yyyy, HH:mm:ss';
+  static String frenchUIDateFormat = 'dd/MM/yyyy, HH:mm:ss';
+  static String graphUIDateFormat = 'dd/MM';
+  static String defaultDateFormat = 'dd/MM/yyyy';
+  static String shortYearDateFormat = 'dd/MM/yy';
+  static String shortDay = 'dd';
+  static String shortHour = 'HH';
+}
